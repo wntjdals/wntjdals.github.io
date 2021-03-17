@@ -19,7 +19,7 @@ locale                   : "ko"
 title                    : "c 프로그래밍"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "wntjdals"
+name                     : ""
 description              : "시스템 프로그램을 위한 C언어"
 url                      : "https://wntjdals.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -94,7 +94,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "wntjdals"
+  name             : ""
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "행복한 컴퓨터교육 설계자"
   location         : "대한민국, 용인"
