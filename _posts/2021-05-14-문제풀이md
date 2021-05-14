@@ -1,0 +1,63 @@
+---
+layout: single
+title: 문제풀이
+---
+
+##1.교과서 76쪽 3번
+---
+![교과서 76쪽 3번](https://classroom.google.com/u/0/c/MjkxODUyNjk1NTE1/m/MzM1NjAwMjU4ODEx/details)
+![교과서 76쪽 3번-1](https://classroom.google.com/u/0/c/MjkxODUyNjk1NDk2/a/MzEzMjYyNDM4OTg3/details)
+~~~C
+#include <stdio.h>
+ 
+int main(void) {
+int a, b, c;
+float d,e,f;
+ 
+printf("***과목별 점수 계산 프로그램***\n");
+ 
+printf("중간고사 반영비율/받은 점수를 입력하세요:\n");
+scanf("%f%d",&d,&a);
+ 
+printf("기말고사 반영비율/받은 점수를 입력하세요:\n");
+scanf("%f%d",&e,&b);
+ 
+printf("수행평가 반영비율/받은 점수를 입력하세요:\n");
+scanf("%f%d",&f,&c);
+ 
+float score=a*d+b*e+c*f;
+printf("점수는 %.1f입니다.\n",score);
+ 
+ return 0;
+}
+~~~
+---
+
+##2.교과서 96쪽 1번
+---
+![교과서 96쪽 1번](https://classroom.google.com/u/0/c/MjkxODUyNjk1NDk2/a/MzM1NTQ4NjU0NzA0/details)
+![교과서 96쪽 1번-1](https://classroom.google.com/u/0/c/MjkxODUyNjk1NDk2/a/MzM1NTQ4NjU0NzA0/details)
+~~~C
+#include <stdio.h>
+ 
+int main(void) {
+int year, month, day;
+printf("당신의 사주를 봐드립니다.\n연도 윌 일을 차례대로 입력하세요 :");
+scanf("%d %d %d",&year,&month,&day);
+ 
+int sum=year-month+day;
+int residant=sum%10;
+if(!(residant))
+ printf("당신의 사주는 대박입니다.\n\n");
+ 
+else{
+   printf("당신의 사주는 그럭저럭입니다.\n\n");
+}
+ 
+printf("------------------");
+ 
+return 0;
+}
+~~~
+---
+
